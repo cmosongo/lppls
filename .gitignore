@@ -1,0 +1,9 @@
+# ignore checkpoints
+.ipynb_checkpoints
+.venv-lppls
+__pycache__ 
+
+#builds
+README.html
+
+
