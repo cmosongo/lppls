@@ -20,19 +20,12 @@ Activate virtual environment
 `$ .venv-lppls/bin/activate`
 
 > Windows
-Command Prompt:
 
 `> .venv-lppls\Scripts\activate`
 
-PowerShell:
-
-`PS> .\.venv-lppls\Scripts\Activate`
-
-
-To run the notebook, run the folliwing command to add the virtual environment to jupyter kernel
+Add the virtual environment to jupyter kernel
 
 `ipython kernel install --user --name=.venv-lppls`
-
 
 Install the required packages in the `.venv-lppls`
 
