@@ -7,27 +7,72 @@ The LPPLS model is based on the idea that during a financial bubble, the price o
 It's important to note that the LPPLS model is a subject of debate and criticism in the financial community. Some researchers and traders find it useful for identifying potential market crashes, while others consider it overly complex and not reliable for making investment decisions. Like many models in economics and finance, its predictive power is limited, and it may not always accurately forecast market behavior.
 
 
-## Running
+## How to Use
 
-Create virtual environment 
+### 1. Global installation
 
-`python3 -m venv .venv-lppls`
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/cmosongo/lppls.git
+   ```
+2. Install the required packages:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Run the Jupyter notebook:
+   ```bash
+   jupyter notebook notebooks/LPPLS.ipynb
+   ```
 
-Activate virtual environment 
+## 2. Virtual Environment
 
-> Linux/MAC
+Clone the repository and navigate to the parent folder using either the Command Prompt `cmd` or PowerShell on Windows, or any Unix-based terminal. Then, run the following commands:
 
-`$ .venv-lppls/bin/activate`
+1. Create virtual environment 
+	```bash
+	python3 -m venv .venv
+	```
 
-> Windows
+2. Activate virtual environment 
 
-`> .venv-lppls\Scripts\activate`
+	> Unix
+	```bash
+	$ source .venv/bin/activate
+	```
 
-Add the virtual environment to jupyter kernel
+	> Windows
+	Command Prompt:
+	```bash
+	> .venv\Scripts\activate
+	```
 
-`ipython kernel install --user --name=.venv-lppls`
+	PowerShell:
+	```shell
+	PS> .\.venv\Scripts\Activate
+	```
 
-Install the required packages in the `.venv-lppls`
+3. To use nootebooks:
+
+	```bash
+	(.venv)> pip install ipykernel
+	```
+
+4. To run the notebook, run the following command to add the virtual environment to jupyter kernel
+
+	```bash
+	(.venv)> python -m ipykernel install --user --name=.venv --display-name "LPPLS Analysis"
+	```
+
+5. Install the required packages 
+	```bash
+	(.venv)> pip install -r requirements.txt
+	```
+
+6. Deactivating the virtual environment
+
+	 ```bash
+	 deactivate
+	 ```
 
 `> pip install -r requirements.txt`
 
