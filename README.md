@@ -1,5 +1,7 @@
 # Log Periodic Power Law Singularity
 
+[![Python 3](https://img.shields.io/badge/python-3-blue?style=for-the-badge&logo=python)](https://www.python.org/)
+
 LPPLS stands for Log-Periodic Power Law Singularity. It is a mathematical model used in the field of financial economics and complex systems to describe the behavior of financial market bubbles and crashes. The LPPLS model attempts to capture the speculative bubbles that can occur in financial markets, such as stock markets or cryptocurrency markets, and predict when they might burst.
 
 The LPPLS model is based on the idea that during a financial bubble, the price of an asset (like a stock or cryptocurrency) increases at an accelerating rate, with oscillations or wavy patterns in the price chart. The model uses a mathematical formula with various parameters to fit the observed price data and make predictions about the likely time frame for the bubble to burst.
