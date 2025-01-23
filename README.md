@@ -48,7 +48,7 @@ Clone the repository and navigate to the parent folder using either the Command 
 	> .venv\Scripts\activate
 	```
 
-	PowerShell:
+	> PowerShell:
 	```shell
 	PS> .\.venv\Scripts\Activate
 	```
