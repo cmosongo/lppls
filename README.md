@@ -8,7 +8,19 @@ The LPPLS model is based on the idea that during a financial bubble, the price o
 
 It's important to note that the LPPLS model is a subject of debate and criticism in the financial community. Some researchers and traders find it useful for identifying potential market crashes, while others consider it overly complex and not reliable for making investment decisions. Like many models in economics and finance, its predictive power is limited, and it may not always accurately forecast market behavior.
 
+```mermaid
+graph TD
+    A[LPPLS Model] --> B[Faster-than-Exponential Price Growth]
+    A --> C[Positive Feedback Loop]
+    A --> D[Negative Feedback Loop]
+    B --> E{Finite-Time Singularity}
+    C --> E
+    D --> E
+    E --> F[Oscillations Increase Near Singularity]
+    F --> G[Detection of Bubble/Crash Point]
+    G --> H[Predicting Regime Changes]
 
+```
 ## How to Use
 
 ### 1. Global installation
